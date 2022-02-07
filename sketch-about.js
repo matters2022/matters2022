@@ -23,7 +23,7 @@ function preload() {
 
 function setup() {
 
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, windowHeight * 2);
     ton_w = width;
     frameRate(fr);
 

@@ -10,7 +10,7 @@ canvas {
 position: relative;
 margin-left: 25%;
   width: 100%;
-
+padding-top: 6rem;
 }
 
 .container4 {
@@ -148,7 +148,25 @@ sub {
 
 .pv3 {
     margin-top: 6rem!important;
-    margin-bottom: -6rem;
+}
+
+.pv4 {
+    margin-top: 11.5rem!important;
+}
+
+
+.pvv5 {
+    margin-top: 6rem!important;
+        margin-bottom: -2rem;
+
+}
+
+.pvv6 {
+    margin-top: 20rem!important;
+}
+
+.pv6 {
+    margin-top: 20rem!important;
 }
 
 .pt9-ns {
@@ -163,13 +181,12 @@ sub {
     margin-top: 10%!important;
 }
 
-
-.salto {
-  margin-top: 15rem!important;
+.pv5-ns {
+    padding-top: 23.5rem!important;
 }
 
-.pv5-ns {
-    padding-top: 15rem!important;
+.pv6-ns {
+    padding-top: 12rem!important;
 }
 
 p5{
@@ -184,6 +201,12 @@ p5w{
 p6{    
   margin-left: 20px;
   margin-right:20px;
+}
+
+p6w{
+    margin-left: 25%;
+    font-size: 18px!important;
+    color: #fff;   
 }
 
 p8{    
@@ -209,8 +232,8 @@ p10{
   outline: none;
   transition: 0.4s;
   overflow: hidden; 
+  line-height: 25px;
 }
-
 
 .button {
   border: none!important;
@@ -233,7 +256,6 @@ p10{
 }
 
 
-
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0px;
@@ -243,6 +265,41 @@ p10{
   overflow: hidden;
 
 }
+
+/**/
+
+.accordion2 {
+  background-color: #dbcbcbBF;
+  color: #444;
+  cursor: pointer;
+  padding: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: right;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  overflow: hidden; 
+  line-height: 25px;
+}
+
+.active, .accordion2:hover {
+  background-color: #dbcbcbBF;
+    border: none!important;
+  outline: none;
+  overflow: hidden;
+}
+
+.panel2 {
+  padding: 0px;
+  background-color: #dbcbcbBF;
+  border: none;
+  display: none;
+  overflow: hidden;
+
+}
+
 
 #contenu { 
 	position:relative; 
