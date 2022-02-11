@@ -2,7 +2,7 @@ let angle = 0
 
 
 function setup() {
-    createCanvas(windowWidth, windowHeight)
+    createCanvas(windowWidth, windowHeight * 2)
     angleMode(DEGREES)
 
 }
@@ -136,7 +136,7 @@ function draw() {
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight)
+    resizeCanvas(windowWidth, windowHeight * 2)
 }
 
 
