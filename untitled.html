@@ -45,18 +45,39 @@
     </style>
   </head>
   <body class="ano-regular bg-rosa">    <div id='contenu'>
-
-<div class="topnav" id="myTopnav">
-  <a href="../index.html">Home</a>
-  <a href="fr">Français</a>
-  <a href="">Get Involved</a>
-  <a href="../program">Program</a>
-  <a href="https://artmattersarchive.org/" target="_blank">Archive</a>
-  <a href="../about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <!--
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+        -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../index.html"><strong>HOME</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../about"><strong>ABOUT</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://artmattersarchive.org/" target="_blank"><strong>ARCHIVE</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../program"><strong>PROGRAM</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#"><strong>GET INVOLVED</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#"><strong>FRANÇAIS</strong></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     
     <div class="flex-l w-100 justify-between">
       
@@ -65,14 +86,13 @@
       
  <div class="flex-l w-100 justify-between">
         
-        <div class="fixed-bg-left flex items-m2 vh-200 flex-auto w-100 pvv3-ns pvv4 phh4-ns phh2 cover sticky">
+        <div class="fixed-bg-left ptt5-ns ptt4 min-vh-200 flex flex-auto w-100 phh3-ns phh2 cover">
           
 
-  <div class="w-100 ph4-ns phh2">
-    
-    <div>
-      <p class="f7 center mt2 paa3 lh-copy"></p>
-
+          
+          <div class="measure-wide lh-copy mv5-ns mv3">
+            
+            <div class="pv33">
               <h8 class = "salto">GET INVOLVED</h8>
               <br><br><br><br>
               <p>Every year, Art Matters brings on new members from Concordia University to help curate, organize and manage the year’s festival.
@@ -180,11 +200,11 @@
     </div>
   </div>
 </div>
-<div class="fixed-bg-right flex items-m2 vh-200 flex-auto w-100 pvv5-ns pvv4 phh4-ns phh2 cover sticky">
-  <div class="w-100 ph4-ns phh2">
+<div class="fixed-bg-right flex items-m2 vh-200 flex-auto w-100 pvv5-ns pv4 phh4-ns ph2 cover sticky">
+  <div class="w-100 ph4-ns ph2">
     
     <div>
-      <p class="f7 center mt2 paa3 lh-copy"></p>
+      <p class="f7 center mt2 pa3 lh-copy"></p>
 
 <button class="accordion">APPLY AS A VOLUNTEER<p6>&#x25BC;</p6></button>
         
@@ -375,7 +395,7 @@
 </div>
 </div>
 </div>
-<footer class="bg-rosa black ptt5 paa4 min-vh-100">
+<footer class="bg-rosa black pt5 pa4 min-vh-100">
 <div class="ph3">
 <h2 class="lh-copy mb0 pa0"></h2>
 <p class="lh-copy measure pt3"></p>
@@ -468,15 +488,6 @@
 </div>
 <footer>
 <script>
-
-    function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
 var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {

@@ -1,4 +1,57 @@
 
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 52%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #cef7d4;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #fff;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 canvas { 
 	position:fixed; 
 	top:0; 
@@ -133,9 +186,11 @@ sub {
   font-size: 1.5rem!important;
 }
 
-.pa4 {
+.paa4 {
     padding: 2rem!important;
 }
+
+/* welcoming text over p5.js sketch */ 
 
 .pa5 {
     position: absolute;
@@ -146,6 +201,8 @@ sub {
     text-align: left;
 }
 
+/* text for map index.html */
+
 .pa6 {
     position: absolute;
     margin-top: 38%;
@@ -154,42 +211,92 @@ sub {
     text-align: left;
 }
 
-.pa7 {
+/* Padding del texto abajo de la galería */
+
+.paa7 {
     position: absolute;
     margin-top: 28%;
-    margin-left: 12%;
-    margin-right: 12%;
-    padding-top: 17rem;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 42rem;
     padding-left: 15%;
     padding-right: 5%;
     text-align: left;
 }
 
-.pv33 {
-  padding-top: 7%;
-  margin-top: 6rem!important;
-}
 
 .pv44 {
-    margin-top: 15rem!important;
+    margin-top: 25rem!important;
 }
 
-.pv4 {
-    margin-top: 11.5rem!important;
+.pvv4 {
+    padding-top: 20rem;
+    padding-bottom: 2rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+
+.paa3 {
+    padding: 1.5rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 40rem!important;
+}
+
+/* columna izquierda padding-top (about 1st section) */
+
+.pvv33-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 40rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 27.2rem!important;
+}
+
+/* ajustar columna derecha padding-top (about-coordinators) */
+
+.pvvv5-ns {
+    padding-top: 28rem!important;
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 12.5rem!important;
+}
+
+/* ajustar columna izquierda padding-top (about-2022 coordinators) */
+
+.pvvv3-ns {
+  padding-top: 0rem!important;
+  padding-bottom: 8rem!important;
 }
 
 
-.pvv5 {
-    margin-top: 18rem!important;
-}
+/* valor para el footer */
 
-.pvv6 {
-    margin-top: -10rem!important;
-    margin-bottom: -2rem;
-}
-
-.pv6 {
-    margin-top: 20rem!important;
+.ptt5 {
+    padding-top: 4rem;
 }
 
 .pt9-ns {
@@ -200,7 +307,7 @@ sub {
     margin-top: 7%!important;
 }
 
-.items-m2 {
+.items-mm2 {
     margin-top: 10%!important;
 }
 
@@ -547,642 +654,8 @@ section {
 }
 
 
-/* .fixed-bg-wide {
-  background: url('/_annual-reports/2019/assets/img/bg-2-wide.svg') no-repeat center center fixed; background-size: cover;
-} */
-@media screen and (min-width: 60em) {
-  .sticky-l {
-     position: -webkit-sticky;
-     position: sticky;
-     top: 0;
-  }
-  .fixed-bg-left {
-    background: transparent!important;
-  }
-  .fixed-bg-right {
-    background: transparent!important;
-  }
-}
 
-@media only screen and (min-width: 30em) and (max-width: 60em) {
-  .fixed-bg-wide {
-    background: transparent!important;
-  }
-  /* .fixed-bg-left {
-    background: url('/_annual-reports/2019/assets/img/bg-2-left.svg') no-repeat center center fixed; background-size: cover;
-  }
-  .fixed-bg-right {
-    background: url('/_annual-reports/2019/assets/img/bg-2-right.svg') no-repeat center center fixed; background-size: cover;
-  } */
-}
 
-.fixed-bg-left, .fixed-bg-right, .fixed-bg-wide {
-  background-attachment: fixed!important;
-}
-
-#highlights-modal-container {
-  min-width: 30em;
-}
-@media only screen and (max-width: 30em) {
-  #highlights-modal-container {
-    min-width: 100%;
-  }
-  .bg-mauve-ns, .bg-amarillo-ns, .bg-aqua-verde-ns, .bg-azul-ns, .bg-white-ns, .bg-charcoal-ns, .bg-brown-gray-ns {
-    background-color: transparent;
-    /* background-color: #B59DA4; */
-  }
-
-  .fixed-bg-left, .fixed-bg-right, .fixed-bg-wide {
-    background-attachment: local!important;
-  }
-
-  #partners a {
-
-  }
-}
-
-
-.modal .modal-overlay {
-  z-index: 999;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-}
-
-.modal .modal-content {
-  max-width: 32rem;
-  height: 75%;
-  background-color: #fff;
-  padding: 1rem;
-  width: 100%;
-}
-
-.modal {
-  display: none;
-}
-
-.modal.is-open {
-  display: block;
-}
-
-.modal .close {
-  cursor: pointer;
-}
-
-
-.navbar {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
-}
-
-.navbar > .container,
-.navbar > .container-fluid {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.navbar-brand {
-  display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
-}
-
-.navbar-brand:hover, .navbar-brand:focus {
-  text-decoration: none;
-}
-
-.navbar-nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-.navbar-nav .nav-link {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-.navbar-nav .dropdown-menu {
-  position: static;
-  float: none;
-}
-
-.navbar-text {
-  display: inline-block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.navbar-collapse {
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-}
-
-.navbar-toggler:hover, .navbar-toggler:focus {
-  text-decoration: none;
-}
-
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%;
-}
-
-@media (max-width: 575.98px) {
-  .navbar-expand-sm > .container,
-  .navbar-expand-sm > .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-@media (min-width: 576px) {
-  .navbar-expand-sm {
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-  .navbar-expand-sm .navbar-nav {
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-  .navbar-expand-sm .navbar-nav .dropdown-menu {
-    position: absolute;
-  }
-  .navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
-  .navbar-expand-sm > .container,
-  .navbar-expand-sm > .container-fluid {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-  .navbar-expand-sm .navbar-collapse {
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-  }
-  .navbar-expand-sm .navbar-toggler {
-    display: none;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .navbar-expand-md > .container,
-  .navbar-expand-md > .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .navbar-expand-md {
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-  .navbar-expand-md .navbar-nav {
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-  .navbar-expand-md .navbar-nav .dropdown-menu {
-    position: absolute;
-  }
-  .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
-  .navbar-expand-md > .container,
-  .navbar-expand-md > .container-fluid {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-  .navbar-expand-md .navbar-collapse {
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-  }
-  .navbar-expand-md .navbar-toggler {
-    display: none;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .navbar-expand-lg > .container,
-  .navbar-expand-lg > .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar-expand-lg {
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-  .navbar-expand-lg .navbar-nav {
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: absolute;
-  }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
-  .navbar-expand-lg > .container,
-  .navbar-expand-lg > .container-fluid {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-  .navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-  }
-  .navbar-expand-lg .navbar-toggler {
-    display: none;
-  }
-}
-
-@media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container,
-  .navbar-expand-xl > .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  .navbar-expand-xl {
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-  .navbar-expand-xl .navbar-nav {
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-  .navbar-expand-xl .navbar-nav .dropdown-menu {
-    position: absolute;
-  }
-  .navbar-expand-xl .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
-  .navbar-expand-xl > .container,
-  .navbar-expand-xl > .container-fluid {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-  .navbar-expand-xl .navbar-collapse {
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-  }
-  .navbar-expand-xl .navbar-toggler {
-    display: none;
-  }
-}
-
-.navbar-expand {
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.navbar-expand > .container,
-.navbar-expand > .container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-.navbar-expand .navbar-nav {
-  -ms-flex-direction: row;
-  flex-direction: row;
-}
-
-.navbar-expand .navbar-nav .dropdown-menu {
-  position: absolute;
-}
-
-.navbar-expand .navbar-nav .nav-link {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-}
-
-.navbar-expand > .container,
-.navbar-expand > .container-fluid {
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.navbar-expand .navbar-collapse {
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-}
-
-.navbar-expand .navbar-toggler {
-  display: none;
-}
-
-.navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
-}
-
-.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
-}
-
-.navbar-light .navbar-nav .nav-link.disabled {
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.navbar-light .navbar-nav .show > .nav-link,
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
-}
-
-.navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
-}
-
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-light .navbar-text {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.navbar-light .navbar-text a {
-  color: rgba(0, 0, 0, 0.9);
-}
-
-.navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
-}
-
-.navbar-dark .navbar-brand {
-  color: #fff;
-}
-
-.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
-}
-
-.navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.25);
-}
-
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
-}
-
-.navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 255, 255, 0.1);
-}
-
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-dark .navbar-text {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.navbar-dark .navbar-text a {
-  color: #fff;
-}
-
-.navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
-}
-
-
-/**************************\
-  Demo Animation Style
-\**************************/
-@keyframes mmfadeIn {
-    from { opacity: 0; }
-      to { opacity: 1; }
-}
-
-@keyframes mmfadeOut {
-    from { opacity: 1; }
-      to { opacity: 0; }
-}
-
-@keyframes mmslideIn {
-  from { transform: translateY(15%); }
-    to { transform: translateY(0); }
-}
-
-@keyframes mmslideOut {
-    from { transform: translateY(0); }
-    to { transform: translateY(-10%); }
-}
-
-.micromodal-slide {
-  display: none;
-}
-
-.micromodal-slide.is-open {
-  display: block;
-}
-
-.micromodal-slide[aria-hidden="false"] .modal__overlay {
-  animation: mmfadeIn .3s cubic-bezier(0.0, 0.0, 0.2, 1);
-}
-
-.micromodal-slide[aria-hidden="false"] .modal__container {
-  animation: mmslideIn .3s cubic-bezier(0, 0, .2, 1);
-}
-
-.micromodal-slide[aria-hidden="true"] .modal__overlay {
-  animation: mmfadeOut .3s cubic-bezier(0.0, 0.0, 0.2, 1);
-}
-
-.micromodal-slide[aria-hidden="true"] .modal__container {
-  animation: mmslideOut .3s cubic-bezier(0, 0, .2, 1);
-}
-
-.micromodal-slide .modal__container,
-.micromodal-slide .modal__overlay {
-  will-change: transform;
-}
-
-path.link {
-  fill: none;
-  stroke-width: 1px;
-}
-.node:not(:hover) .nodetext {
-  visibility: hidden;
-}
-
-.node .hidden {
-  display: none;
-}
-
-.node {
-  cursor: pointer;
-}
-
-aside#cluster-highlights-sidebar, aside#project-highlights-sidebar {
-  opacity: 0;
-  transition: opacity 0.25s ease-out;
-}
-
-aside#cluster-highlights-sidebar.show, aside#project-highlights-sidebar.show {
-  opacity: 1;
-}
-
-aside#cluster-highlights-info, aside#cluster-highlights-info span, aside#project-highlights-info, aside#project-highlights-info span {
-  height: auto;
-  transition: all 0.25s ease-out;
-}
-
-aside#cluster-highlights-info.hide, aside#cluster-highlights-info.hidden, aside#cluster-highlights-info.hide span, aside#cluster-highlights-info.hidden span, aside#project-highlights-info.hide, aside#project-highlights-info.hidden, aside#project-highlights-info.hide span, aside#project-highlights-info.hidden span {
-  height: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  opacity: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-#menu {
-  right: -500px;
-  transition: all 0.3s ease-in;
-}
-
-.menu-open #menu {
-  right: 0px;
-}
-
-#toggleMenu #bottom, #toggleMenu #top {
-  -webkit-transform: rotate(0) translateX(0) translateY(0);
-  -moz-transform: rotate(0) translateX(0) translateY(0);
-  -o-transform: rotate(0) translateX(0) translateY(0);
-  -ms-transform: rotate(0) translateX(0) translateY(0);
-  transform: rotate(0) translateX(0) translateY(0);
-}
-#toggleMenu #bottom, #toggleMenu #middle, #toggleMenu #top {
-  -webkit-transition: .3s cubic-bezier(.215,.61,.355,1);
-  -moz-transition: .3s cubic-bezier(.215,.61,.355,1);
-  -o-transition: .3s cubic-bezier(.215,.61,.355,1);
-  -ms-transition: .3s cubic-bezier(.215,.61,.355,1);
-  transition: .3s cubic-bezier(.215,.61,.355,1);
-}
-
-.menu-open #toggleMenu #middle {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    -webkit-transform: scale(.9);
-    -moz-transform: scale(.9);
-    -o-transform: scale(.9);
-    -ms-transform: scale(.9);
-    transform: scale(.9);
-}
-
-.menu-open #toggleMenu #bottom {
-    -webkit-transform: rotate(-45deg) translateX(-11px) translateY(-3px);
-    -moz-transform: rotate(-45deg) translateX(-11px) translateY(-3px);
-    -o-transform: rotate(-45deg) translateX(-11px) translateY(-3px);
-    -ms-transform: rotate(-45deg) translateX(-11px) translateY(-3px);
-    transform: rotate(-45deg) translateX(-11px) translateY(-3px);
-}
-
-.menu-open #toggleMenu #top {
-  -webkit-transform: rotate(45deg) translateX(2px) translateY(-2px);
-  -moz-transform: rotate(45deg) translateX(2px) translateY(-2px);
-  -o-transform: rotate(45deg) translateX(2px) translateY(-2px);
-  -ms-transform: rotate(45deg) translateX(2px) translateY(-2px);
-  transform: rotate(45deg) translateX(2px) translateY(-2px);
-}
 
 html, body {
 	font-family: 'Rubik', sans-serif;
@@ -1720,10 +1193,11 @@ td{ text-align: center; vertical-align: middle; }
 /*
 */
 
+/* container - space between first section and gallery */
 
-.container8 {
-  width: 100%;
-  margin: 0rem auto!important; 
+.container88 {
+    width: 100%;
+    margin: -20rem auto!important;
 }
 
 .gallery {
@@ -1838,4 +1312,5631 @@ td{ text-align: center; vertical-align: middle; }
   }
 }
 
+
+
+/*/////////////////////////////////////////////
+////////////////// Full HD ////////////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 1920px) {
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 68%;
+}
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 44%;
+    margin-left: -100px;
+    padding: 0rem;
+    text-align: left;
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 20rem!important;
+  padding-bottom: 80rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 20rem!important;
+  padding-bottom: 50rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 26.5rem!important;
+      padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 33%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 4rem!important;
+        padding-top: 8rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 1690px;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 41rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+}
+
+/*/////////////////////////////////////////////
+////////////// Full HD - 1080 /////////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 1080px) {
+
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 157%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 45%;
+}
+
+/* welcoming text over p5.js sketch */ 
+
+.pa5 {
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 33%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+
+/*/////////////////////////////////////////////
+*/
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -65%!important;
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 22rem!important;
+  padding-bottom: 50rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 28.33rem!important;
+      padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 4rem!important;
+        padding-top: 8rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 880px;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+}
+
+.pab4 {
+    padding-top: 2rem;
+    padding-left: 2rem!important;
+}
+
+/*/////////////////////////////////////////////
+////////////// iPhone SE - 667 ////////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 667px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 24%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 80%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 46%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -65%!important;
+}
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 90rem!important;
+
+}
+
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 5rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 30rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 2rem!important;
+        padding-top: 2rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+    /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 70rem!important;
+
+}
+
+}
+
+/*/////////////////////////////////////////////
+////////////// iPhone SE - 375 //////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 375px) {
+
+
+/* text for mapa index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 112%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 66%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 52%;
+    margin-left: 22%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -125%!important;
+}
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 80rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 5rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 30rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 2rem!important;
+        padding-top: 2rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+    /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 70rem!important;
+
+}
+
+}
+
+/*/////////////////////////////////////////////
+////////////// iPhone XR - 896 //////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 896px) {
+
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 23%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 83%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 46%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+
+/*/////////////////////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 98rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 4rem!important;
+        padding-top: 8rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 880px;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 80rem!important;
+
+}
+
+}
+
+
+/*/////////////////////////////////////////////
+////////////// iPhone XR - 414 //////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 414px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 156%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 68%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 54%;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+
+/*/////////////////////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 80rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 0rem!important;
+  z-index: 2;
+
+}
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 4rem!important;
+        padding-top: 8rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 880px;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+    /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 70rem!important;
+
+}
+
+}
+
+/*/////////////////////////////////////////////
+////////// iPhone 12 Pro - 844 //////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 844px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 83%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 45%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 4rem!important;
+        padding-top: 8rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 880px;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+
+/*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 98rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 5rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 100rem!important;
+
+}
+
+}
+
+/*/////////////////////////////////////////////
+////////// iPhone 12 Pro - 390 //////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 390px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 153%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 65%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 57%;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding: 2rem!important;
+    padding-bottom: 20rem!important;
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*/////////////////////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 70rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 0rem!important;
+  z-index: 2;
+
+}
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+  }
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 11rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 80rem!important;
+
+}
+
+}
+
+/*/////////////////////////////////////////////
+//////////////// Pixel 5 - 851 //////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 851px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 83%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 45%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 2rem!important;
+        padding-top: 2rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 90rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 5rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 100rem!important;
+
+}
+
+}
+
+/*/////////////////////////////////////////////
+//////////////// Pixel 5 - 393 //////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 393px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 153%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 65%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 57%;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding: 2rem!important;
+    padding-bottom: 20rem!important;
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*/////////////////////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -38rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 70rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 0rem!important;
+  z-index: 2;
+
+}
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+  }
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 100rem!important;
+
+}
+
+}
+
+
+/*/////////////////////////////////////////////
+/////// Samsung Galaxy S8+ - 740 ////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 740px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 83%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 45%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 2rem!important;
+        padding-top: 2rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 86rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 100rem!important;
+
+}
+
+}
+
+/*/////////////////////////////////////////////
+///////////// Samsung Galaxys8+ - 360 //////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 360px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 129%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 65%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 64%;
+    margin-left: 12%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding: 2rem!important;
+    padding-bottom: 20rem!important;
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*/////////////////////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -46rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 70rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 0rem!important;
+  z-index: 2;
+
+}
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+  }
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 100rem!important;
+
+}
+
+}
+
+/*/////////////////////////////////////////////
+/////// Samsung Galaxy S20 - 915 ////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 915px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 86%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 45%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 2rem!important;
+        padding-top: 2rem!important;
+
+}
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 86rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -25%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 72rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+/*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 100rem!important;
+
+}
+
+
+}
+
+/*/////////////////////////////////////////////
+///////// Samsung Galaxy s20 - 412 //////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 412px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 162%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 65%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 72%;
+    margin-left: 12%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding: 2rem!important;
+    padding-bottom: 2rem!important;
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+  /*/////////////////////////////////////////////
+*/
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 5%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -40rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 70rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 0rem!important;
+  z-index: 2;
+
+}
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+  }
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+}
+
+}
+
+/*/////////////////////////////////////////////
+//////////////// iPad Air - 1180 ////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 1180px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 51%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+    background-color: #ffffff00;
+    position: absolute;
+    z-index: 3;
+    padding-left: 50%;
+}
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    }
+
+.pa5 {
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 38%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 2rem!important;
+        padding-top: 2rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -25rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 86rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -25%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 14rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 20.5rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 58rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+/*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 28rem!important;
+      padding-bottom: 100rem!important;
+
+}
+
+
+}
+
+/*/////////////////////////////////////////////
+/////////////////// iPad Air - 820 //////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 820px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 116%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 82%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 623px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 62%;
+    margin-left: 23%;
+    margin-right: 10%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding: 2rem!important;
+    padding-bottom: 20rem!important;
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -24rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 90rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -25%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 18rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 58rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+/*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 100rem!important;
+
+}
+
+
+}
+
+/*/////////////////////////////////////////////
+//////////////// iPad Mini - 1024 ////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 1024px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 38%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+    background-color: #ffffff00;
+    position: absolute;
+    z-index: 3;
+    padding-left: 42%;
+}
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    }
+
+.pa5 {
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 38%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 2rem!important;
+        padding-top: 0rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+  /*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -28rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 20rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -25%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 16.5rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 60rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+/*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 30rem!important;
+          padding-bottom: 120rem!important;
+
+}
+
+
+}
+
+/*/////////////////////////////////////////////
+/////////////////// iPad Mini - 768 //////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 768px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 104%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 82%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 623px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 62%;
+    margin-left: 23%;
+    margin-right: 10%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding: 2rem!important;
+    padding-bottom: 20rem!important;
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+
+/*////////////////about/////////////////////////////
+*/
+
+
+p6w {
+    margin-left: 29%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -24rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 90rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -25%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 14rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 120rem!important;
+
+}
+
+
+}
+
+/*/////////////////////////////////////////////
+//////////////// Surface Pro - 1368 ////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 1368px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 51%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+    background-color: #ffffff00;
+    position: absolute;
+    z-index: 3;
+    padding-left: 50%;
+}
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    }
+
+.pa5 {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 38%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+  /*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -28rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 18rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -25%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 13rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 19.5rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 20%;
+    margin-right: 22%;
+    padding-top: 60rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+}
+
+/*/////////////////////////////////////////////
+/////////////////// Surface Pro - 912 //////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 912px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 125%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 85%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 623px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 62%;
+    margin-left: 23%;
+    margin-right: 10%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+          padding-bottom: 1rem;
+
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*////////////////about/////////////////////////////
+*/
+
+
+p6w {
+    margin-left: 29%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -18rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 0rem!important;
+  padding-bottom: 100rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -25%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 23rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 12%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+  /* padding general para el footer */
+
+.paa4 {
+    padding: 2rem!important;
+    padding-bottom: 0rem!important;
+}
+
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+      padding-bottom: 180rem!important;
+
+}
+
+
+}
+
+/*/////////////////////////////////////////////
+/////////////////// Surface Duo - 720 //////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 720px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 82%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 423px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 23%;
+    margin-right: 10%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 28%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+    padding-bottom: 2rem;
+}
+
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 18rem!important;
+  padding-bottom: 90rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 7rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 0rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+    /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+}
+
+
+}
+
+/*/////////////////////////////////////////////
+///////// surface duo - 540 //////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 540px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 93%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 75%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 52%;
+    margin-left: 18%;
+    margin-right: 10%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* padding general para el footer */
+
+.paa4 {
+    padding: 2rem!important;
+    padding-bottom: 0rem!important;
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*////////////////about/////////////////////////////
+*/
+
+
+p6w {
+    margin-left: 20%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -36rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 0rem!important;
+  padding-bottom: 100rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -25%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 8rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 0rem!important;
+    padding-bottom: 40rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 12%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+}
+
+
+}
+
+
+/*/////////////////////////////////////////////
+////////// Galaxy Fold - 653 //////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 653px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 80%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 323px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 40%;
+    margin-right: 0%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 2rem!important;
+        padding-top: 2rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+  /*////////////////about/////////////////////////////
+*/
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 18rem!important;
+  padding-bottom: 90rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 3rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 0rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+}
+
+
+}
+
+/*/////////////////////////////////////////////
+////////// Galaxy Fold - 280 //////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 280px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 110%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 55%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 233px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 67%;
+    margin-left: 0%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+
+/*////////////////about/////////////////////////////
+*/
+
+
+p6w {
+    margin-left: 0%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -26rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 0rem!important;
+  padding-bottom: 100rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -25%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 3rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 0rem!important;
+    padding-bottom: 40rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 12%;
+    margin-right: 18%;
+    padding-top: 42rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+    /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+}
+
+}
+
+/*/////////////////////////////////////////////
+////////////// Galaxy A51/71 - 914 //////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 914px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 21%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 85%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 33%;
+    margin-right: 10%;
+    padding: 4rem;
+    text-align: left;
+}
+/*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 18rem!important;
+  padding-bottom: 90rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -105%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 3rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 0rem!important;
+    padding-bottom: 60rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 4rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+}
+
+}
+
+/*/////////////////////////////////////////////
+//////////////// Nesthubmax - 1280 ////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 1280px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+    background-color: #ffffff00;
+    position: absolute;
+    z-index: 3;
+    padding-left: 52%;
+}
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    }
+
+.pa5 {
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 38%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 2rem!important;
+        padding-top: 2rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+  /*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -28rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 20rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -15%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 16.5rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 60rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+/*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 27rem!important;
+          padding-bottom: 30rem!important;
+
+}
+
+
+
+}
+
+/*/////////////////////////////////////////////
+////////// Pixel 2 - 731 //////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 731px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 26%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 82%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 323px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 40%;
+    margin-right: 0%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 23%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 2rem!important;
+        padding-top: 2rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 90rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -55%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 5rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 2rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+  /*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+}
+
+}
+
+
+/*/////////////////////////////////////////////
+///////// pixel 2 - 411 /////////////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (width: 411px) {
+
+
+/* text for map index.html */
+
+.pa6 {
+    position: absolute;
+    margin-top: 118%;
+    margin-left: -118px;
+    padding: 0rem;
+    text-align: left;
+}
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 68%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:3;
+}
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    z-index:3;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:3;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    z-index:3;
+  }
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pab4 {
+    padding: 2rem;
+    max-width: 333px;
+}
+
+.pa5 {
+    position: absolute;
+    margin-top: 52%;
+    margin-left: 18%;
+    margin-right: 10%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 4%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding: 2rem!important;
+    padding-bottom: 8rem!important;
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 8px!important;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 40rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+/*////////////////about/////////////////////////////
+*/
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -38rem auto!important;
+}
+
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 80rem!important;
+  z-index: 2;
+
+}
+
+/* columna derecha padding-top (coordinators) */
+
+.pvvv5-ns {
+  padding-top: 20rem!important;
+  z-index: 2;
+
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -25%!important;
+}
+
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 0rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    padding-top: 0.5rem!important;
+    padding-bottom: 50rem!important;
+}
+
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 60rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+/*////////////////get-involved/////////////////////////////
+*/
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 0rem!important;
+}
+
+/* ajustar columna derecha padding-top (get-involved) */
+
+.pvv5-ns {
+    padding-top: 0rem!important;
+}
+
+}
 
