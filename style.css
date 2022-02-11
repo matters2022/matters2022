@@ -436,6 +436,14 @@ sub {
     padding-right: 2rem;
 }
 
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 12rem!important;
+}
+
+
 /* columna izquierda padding-top */
 
 .pvv3-ns {
@@ -530,6 +538,13 @@ p6w{
     margin-left: 25%;
     font-size: 18px!important;
     color: #fff;   
+}
+
+/* del texto cuestionario - anti-oppression */
+
+p77w {
+    font-size: 18px!important;
+    color: #fff;
 }
 
 p8{    
@@ -828,6 +843,10 @@ section {
  background-color: #e5bfd9!important;
 }
 
+.bg-morado{
+  background-color: #BCC2E6!important;
+}
+
 .f6 {
     font-size: .875rem!important;
 }
@@ -836,8 +855,28 @@ section {
     min-height: 200vh!important;
 }
 
+/* reflective q&a */
 
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
 
 
 html, body {
@@ -1503,6 +1542,52 @@ td{ text-align: center; vertical-align: middle; }
 
 @media only screen and (width: 1920px) {
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 33%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 20rem!important;
+  padding-bottom: 50rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 16%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+/*
+/////////////////////////////////////////////*/
+
 .topnav {
   background-color: #ffffff00;
   position:absolute; 
@@ -1565,6 +1650,8 @@ p6w {
     color: #fff;
 }
 
+
+
 /* padding general para el footer */
 
 .paa4 {
@@ -1619,8 +1706,52 @@ p6w {
 ////////////// Full HD - 1080 /////////////////
 /////////////////////////////////////////////*/
 
+
 @media only screen and (width: 1080px) {
 
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 2%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 35rem!important;
+  padding-bottom: 37rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
 
 
 /* text for map index.html */
@@ -1714,7 +1845,7 @@ p6w {
 
 .paa4 {
     padding-left: 4rem!important;
-        padding-top: 8rem!important;
+        padding-top: 18rem!important;
 
 }
 
@@ -1770,6 +1901,50 @@ p6w {
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 667px) {
+
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 59%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 7rem!important;
+  padding-bottom: 5rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
 
 
 /* text for map index.html */
@@ -1976,6 +2151,50 @@ p6w {
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 375px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 59%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 3rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
 
 
 /* text for mapa index.html */
@@ -2190,6 +2409,50 @@ p6w {
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 896px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 6%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 9rem!important;
+  padding-bottom: 3rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
 
 
 
@@ -2418,6 +2681,51 @@ p6w {
 
 @media only screen and (width: 414px) {
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 59%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 15rem!important;
+  padding-bottom: 3rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 
 /* text for map index.html */
 
@@ -2642,6 +2950,51 @@ p6w {
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 844px) {
+
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 9rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
 
 
 /* text for map index.html */
@@ -2870,6 +3223,52 @@ ajustar padding-top (about-2022 coordinators)
 
 @media only screen and (width: 390px) {
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 59%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 15rem!important;
+  padding-bottom: 3rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
+
 
 /* text for map index.html */
 
@@ -3094,6 +3493,52 @@ ajustar padding-top (about-2022 coordinators)
 @media only screen and (width: 851px) {
 
 
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 9rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 /* text for map index.html */
 
 .pa6 {
@@ -3310,6 +3755,52 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 393px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 59%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 15rem!important;
+  padding-bottom: 3rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 
 
 /* text for map index.html */
@@ -3536,6 +4027,51 @@ ajustar padding-top (about-2022 coordinators)
 @media only screen and (width: 740px) {
 
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 9rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 /* text for map index.html */
 
 .pa6 {
@@ -3751,6 +4287,51 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 360px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 59%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 15rem!important;
+  padding-bottom: 3rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
 
 
 /* text for map index.html */
@@ -3974,6 +4555,51 @@ ajustar padding-top (about-2022 coordinators)
 
 @media only screen and (width: 915px) {
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 9rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 
 /* text for map index.html */
 
@@ -4190,6 +4816,96 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 412px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 59%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 15rem!important;
+  padding-bottom: 3rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
 
 
 /* text for map index.html */
@@ -4412,6 +5128,51 @@ ajustar padding-top (about-2022 coordinators)
 
 @media only screen and (width: 1180px) {
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 15rem!important;
+  padding-bottom: 8rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 
 /* text for map index.html */
 
@@ -4597,6 +5358,51 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 820px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
 
 
 /* text for map index.html */
@@ -4816,6 +5622,51 @@ ajustar padding-top (about-2022 coordinators)
 @media only screen and (width: 1024px) {
 
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 8.2rem!important;
+  padding-bottom: 8rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 /* text for map index.html */
 
 .pa6 {
@@ -4992,6 +5843,50 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 768px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
 
 
 /* text for map index.html */
@@ -5219,6 +6114,50 @@ ajustar padding-top (about-2022 coordinators)
 
 @media only screen and (width: 1368px) {
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 10rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 18%;
+        padding-right: 12%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
 
 /* text for map index.html */
 
@@ -5327,6 +6266,50 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 912px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 22rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
 
 
 /* text for map index.html */
@@ -5554,6 +6537,52 @@ ajustar padding-top (about-2022 coordinators)
 
 @media only screen and (width: 720px) {
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
+
 
 /* text for map index.html */
 
@@ -5764,6 +6793,52 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 540px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 
 
 /* text for map index.html */
@@ -5978,6 +7053,52 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 653px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 5rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 
 
 /* text for map index.html */
@@ -6196,6 +7317,51 @@ ajustar padding-top (about-2022 coordinators)
 
 @media only screen and (width: 280px) {
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 
 /* text for map index.html */
 
@@ -6361,6 +7527,51 @@ ajustar padding-top (about-2022 coordinators)
 
 @media only screen and (width: 914px) {
 
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 5.3rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 
 /* text for map index.html */
 
@@ -6517,6 +7728,51 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 1280px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 0%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 10rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 25%;
+        padding-right: 22%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
 
 
 /* text for map index.html */
@@ -6696,6 +7952,52 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 731px) {
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 59%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 9rem!important;
+  padding-bottom: 3rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 
 
 /* text for map index.html */
@@ -6913,6 +8215,53 @@ ajustar padding-top (about-2022 coordinators)
 /////////////////////////////////////////////*/
 
 @media only screen and (width: 411px) {
+
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 59%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 15rem!important;
+  padding-bottom: 3rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+
 
 
 /* text for map index.html */
