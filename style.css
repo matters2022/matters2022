@@ -1597,13 +1597,29 @@ td{ text-align: center; vertical-align: middle; }
 
 /* text for map index.html */
 
-.pa6 {
-    position: absolute;
-    margin-top: 44%;
-    margin-left: -100px;
-    padding: 0rem;
-    text-align: left;
+
+
+/* text for map index.html */
+
+p15{
+  background-color: #ffffffBF;
+  font-size: 18px!important;   
 }
+
+
+/* text for map index.html */
+
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 1910px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
+
 
 /* columna izquierda padding-top */
 
@@ -1756,12 +1772,23 @@ p6w {
 
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 18px!important;   
+}
+
+
+/* text for map index.html */
+
+
+.paa6 {
     position: absolute;
-    margin-top: 157%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 1070px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -1947,15 +1974,28 @@ p6w {
     }
 
 
+
 /* text for map index.html */
 
-.pa6 {
-    position: absolute;
-    margin-top: 24%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
 }
+
+
+/* text for map index.html */
+
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 657px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
+
 
 .topnav {
   background-color: #ffffff00;
@@ -2197,15 +2237,27 @@ p6w {
     }
 
 
-/* text for mapa index.html */
+/* text for map index.html */
 
-.pa6 {
-    position: absolute;
-    margin-top: 112%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
 }
+
+
+/* text for map index.html */
+
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 365px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
+
 
 .topnav {
   background-color: #ffffff00;
@@ -2455,16 +2507,27 @@ p6w {
     }
 
 
+/* text for map index.html */
+
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
+}
+
 
 /* text for map index.html */
 
-.pa6 {
+
+.paa6 {
     position: absolute;
-    margin-top: 23%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 886px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
+
 
 .topnav {
   background-color: #ffffff00;
@@ -2729,13 +2792,25 @@ p6w {
 
 /* text for map index.html */
 
-.pa6 {
-    position: absolute;
-    margin-top: 156%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
 }
+
+
+/* text for map index.html */
+
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 404px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
+
 
 .topnav {
   background-color: #ffffff00;
@@ -2997,15 +3072,28 @@ p6w {
     }
 
 
+
 /* text for map index.html */
 
-.pa6 {
-    position: absolute;
-    margin-top: 20%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
 }
+
+
+/* text for map index.html */
+
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 834px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
+
 
 .topnav {
   background-color: #ffffff00;
@@ -3268,17 +3356,27 @@ ajustar padding-top (about-2022 coordinators)
     }
 
 
+/* text for map index.html */
+
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
+}
 
 
 /* text for map index.html */
 
-.pa6 {
+
+.paa6 {
     position: absolute;
-    margin-top: 153%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 380px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
+
 
 .topnav {
   background-color: #ffffff00;
@@ -3541,12 +3639,23 @@ ajustar padding-top (about-2022 coordinators)
 
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
+}
+
+
+/* text for map index.html */
+
+
+.paa6 {
     position: absolute;
-    margin-top: 20%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 841px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -3805,12 +3914,23 @@ ajustar padding-top (about-2022 coordinators)
 
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
+}
+
+
+/* text for map index.html */
+
+
+.paa6 {
     position: absolute;
-    margin-top: 153%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 383px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -4072,14 +4192,26 @@ ajustar padding-top (about-2022 coordinators)
     }
 
 
+
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 18px!important;   
+}
+
+
+/* text for map index.html */
+
+
+.paa6 {
     position: absolute;
-    margin-top: 20%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 730px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -4333,16 +4465,26 @@ ajustar padding-top (about-2022 coordinators)
     }
 
 
+/* text for map index.html */
+
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
+}
+
 
 /* text for map index.html */
 
-.pa6 {
+
+.paa6 {
     position: absolute;
-    margin-top: 129%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    min-width: 350px!important;
+        max-width: 300px!important;
+    text-align: right;
 }
+
 
 .topnav {
   background-color: #ffffff00;
@@ -4603,14 +4745,24 @@ ajustar padding-top (about-2022 coordinators)
 
 /* text for map index.html */
 
-.pa6 {
-    position: absolute;
-    margin-top: 20%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+p15{
+  background-color: #ffffffBF;
+  font-size: 18px!important;   
 }
 
+
+/* text for map index.html */
+
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 905px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
 .topnav {
   background-color: #ffffff00;
   position:absolute; 
@@ -4907,15 +5059,21 @@ ajustar padding-top (about-2022 coordinators)
     }
 
 
-
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
+}
+
+.paa6 {
     position: absolute;
-    margin-top: 162%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 402px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -5173,15 +5331,25 @@ ajustar padding-top (about-2022 coordinators)
     }
 
 
+/* text for map index.html */
+
+p15{
+  background-color: #ffffffBF;
+  font-size: 18px!important;   
+}
+
 
 /* text for map index.html */
 
-.pa6 {
+
+.paa6 {
     position: absolute;
-    margin-top: 51%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 1170px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -5404,15 +5572,25 @@ ajustar padding-top (about-2022 coordinators)
     }
 
 
+/* text for map index.html */
+
+p15{
+  background-color: #ffffffBF;
+  font-size: 18px!important;   
+}
+
 
 /* text for map index.html */
 
-.pa6 {
+
+.paa6 {
     position: absolute;
-    margin-top: 116%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 810px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -5669,12 +5847,23 @@ ajustar padding-top (about-2022 coordinators)
 
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 18px!important;   
+}
+
+
+/* text for map index.html */
+
+
+.paa6 {
     position: absolute;
-    margin-top: 38%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 1014px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -5887,17 +6076,23 @@ ajustar padding-top (about-2022 coordinators)
 .mmw7-ns {
         max-width: 58rem;
     }
-
-
 /* text for map index.html */
 
-.pa6 {
-    position: absolute;
-    margin-top: 104%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+p15{
+  background-color: #ffffffBF;
+  font-size: 16px!important;   
 }
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 758px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
+
 
 .topnav {
   background-color: #ffffff00;
@@ -6158,15 +6353,21 @@ ajustar padding-top (about-2022 coordinators)
         max-width: 58rem;
     }
 
-
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 18px!important;   
+}
+
+.paa6 {
     position: absolute;
-    margin-top: 51%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 1358px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -6310,16 +6511,21 @@ ajustar padding-top (about-2022 coordinators)
 .mmw7-ns {
         max-width: 58rem;
     }
-
-
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 16px!important;   
+}
+
+.paa6 {
     position: absolute;
-    margin-top: 125%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 902px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -6582,17 +6788,23 @@ ajustar padding-top (about-2022 coordinators)
     }
 
 
-
-
 /* text for map index.html */
 
-.pa6 {
-    position: absolute;
-    margin-top: 45%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
 }
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 710px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
+
 
 .topnav {
   background-color: #ffffff00;
@@ -6838,18 +7050,23 @@ ajustar padding-top (about-2022 coordinators)
         max-width: 58rem;
     }
 
-
-
-
 /* text for map index.html */
 
-.pa6 {
-    position: absolute;
-    margin-top: 93%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
 }
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 530px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
+
 
 .topnav {
   background-color: #ffffff00;
@@ -7100,15 +7317,21 @@ ajustar padding-top (about-2022 coordinators)
 
 
 
-
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
+}
+
+.paa6 {
     position: absolute;
-    margin-top: 10%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 643px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -7361,16 +7584,22 @@ ajustar padding-top (about-2022 coordinators)
         max-width: 58rem;
     }
 
-
-
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
+}
+
+.paa6 {
     position: absolute;
-    margin-top: 110%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 270px!important;
+    max-width: 90px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -7571,16 +7800,21 @@ ajustar padding-top (about-2022 coordinators)
         max-width: 58rem;
     }
 
-
-
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
+}
+
+.paa6 {
     position: absolute;
-    margin-top: 21%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 904px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -7777,12 +8011,14 @@ ajustar padding-top (about-2022 coordinators)
 
 /* text for map index.html */
 
-.pa6 {
+.paa6 {
     position: absolute;
-    margin-top: 41%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 1rem;
+    margin-left: 36%;
+    margin-right: -25rem!important;
+    min-width: 800px!important;
+    padding-left: 20rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -7998,16 +8234,21 @@ ajustar padding-top (about-2022 coordinators)
     }
 
 
-
-
 /* text for map index.html */
 
-.pa6 {
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
+}
+
+.paa6 {
     position: absolute;
-    margin-top: 26%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 720px!important;
+    padding-left: 0rem!important;
+    text-align: right;
 }
 
 .topnav {
@@ -8262,17 +8503,23 @@ ajustar padding-top (about-2022 coordinators)
     }
 
 
-
-
 /* text for map index.html */
 
-.pa6 {
-    position: absolute;
-    margin-top: 118%;
-    margin-left: -118px;
-    padding: 0rem;
-    text-align: left;
+p15{
+  background-color: #ffffffBF;
+  font-size: 12px!important;   
 }
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: -105rem!important;
+    min-width: 401px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
+
 
 .topnav {
   background-color: #ffffff00;
