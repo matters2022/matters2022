@@ -48,7 +48,7 @@ nav ul li a:visited {
   display: block;
   padding: 0 20px;
   line-height: 70px;
-  background: #26262600;
+  background: #4860ba00;
   color: #ffffff;
   text-decoration: none;
   z-index: 5;
@@ -106,7 +106,6 @@ nav ul li ul li a {
     padding: 15px;
     line-height: 20px;
   padding-left: 25%;
-   
   }
   nav ul li ul li a {
     padding-left: 30%;
@@ -317,9 +316,9 @@ padding-top: 6rem;
   font-family: 'Rubik', sans-serif;
   font-size: 1.5rem;
   position: absolute;
-  top: 96%;
+  top: 58%;
   color: #333333;
-  left: 80%;
+  left: 65%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -332,9 +331,9 @@ padding-top: 6rem;
   font-family: 'Rubik', sans-serif;
   font-size: 1.5rem;
   position: absolute;
-  top: 96%;
+  top: 45%;
   color: #333333;
-  left: 60%;
+  left: 45%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -1531,6 +1530,234 @@ td{ text-align: center; vertical-align: middle; }
 
   #partners a {
 
+  }
+}
+
+
+/*/////////////////////////////////////////////
+////////////////// 640px ////////////////////
+/////////////////////////////////////////////*/
+
+@media only screen and (max-width: 660px) and (min-width: 400px) {
+
+
+/* welcoming text over p5.js sketch */ 
+
+.pa5 {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 33%;
+    margin-right: 15%;
+    padding: 4rem;
+    text-align: left;
+}
+
+/*
+//////anti-oppression///////////////////////////////////////*/
+
+.nav-bar {
+  height: 70px;
+  background: #26262600;
+  position:absolute; 
+  z-index:3;
+  padding-left: 33%;
+  width: 100%;
+}
+
+/* columna izquierda padding-top anti */
+
+.pb3-ns {
+  padding-top: 20rem!important;
+  padding-bottom: 50rem!important;
+}
+
+
+/* reflective q&a */
+
+.ccenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pph5-ns {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.mmw5 {
+    max-width: 4rem;
+}
+
+.paa13 {
+    padding-left: 16%;
+}
+
+.mmw7-ns {
+        max-width: 58rem;
+    }
+
+/*
+/////////////////////////////////////////////*/
+
+.topnav {
+  background-color: #ffffff00;
+  position:absolute; 
+  z-index:3;
+  padding-left: 68%;
+}
+
+/* text for map index.html */
+
+
+
+/* text for map index.html */
+
+p15{
+  background-color: #ffffffBF;
+  font-size: 18px!important;   
+}
+
+
+/* text for map index.html */
+
+
+.paa6 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0%;
+    margin-right: 0rem!important;
+    min-width: 620px!important;
+    padding-left: 0rem!important;
+    text-align: right;
+}
+
+
+/* 
+ajustar padding-top (about-2022 coordinators) 
+*/
+
+.items-mm2 {
+    margin-top: -65%!important;
+}
+
+/* columna izquierda padding-top (coordinators) */
+
+.pvvv3-ns {
+  padding-top: 6rem!important;
+  padding-bottom: 90rem!important;
+
+}
+
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 16rem!important;
+  padding-bottom: 160rem!important;
+
+}
+
+
+/* columna izquierda padding-top */
+
+.pvv3-ns {
+  padding-top: 20rem!important;
+  padding-bottom: 80rem!important;
+
+}
+
+/* columna izquierda padding-top (about 1st) */
+
+.pvv33-ns {
+  padding-top: 10rem!important;
+  padding-bottom: 50rem!important;
+
+}
+
+/* ajustar columna derecha padding-top (about1st) */
+
+.pvv6-ns {
+    margin-top: -61rem!important;
+      padding-bottom: 50rem!important;
+}
+
+
+/* container - space between first section and gallery */
+
+.container88 {
+    width: 100%;
+    margin: -44rem auto!important;
+}
+
+/* Padding del texto abajo de la galería */
+
+.paa7 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 52rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+/* margin-left del texto "LEARN MORE" */
+
+p6w {
+    margin-left: 33%;
+    font-size: 18px!important;
+    color: #fff;
+}
+
+
+
+/* padding general para el footer */
+
+.paa4 {
+    padding-left: 4rem!important;
+        padding-top: 8rem!important;
+
+}
+
+
+/* ajustar nav-bar */
+
+.container {
+    min-width: 1690px;
+}
+
+/* ajustar columna derecha padding-top */
+
+.pvv5-ns {
+    padding-top: 41rem!important;
+}
+
+/* padding left and right of the whole page */
+
+.phh2 {
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+
+.ptt4 {
+    padding-top: 2rem;
+}
+
+/* para el footer */
+
+.ptt5 {
+      padding-top: 15rem;
+}
+
+.paa3 {
+    padding: 0rem;
+}
+
+/* padding left and right of the whole page */
+
+.phh4-ns {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
   }
 }
 
